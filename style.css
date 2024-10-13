@@ -106,3 +106,13 @@ body {
     background-color: #3E352E; /* Darker shade for hover, focus, and active states */
     border-color: #3E352E; /* Darker shade for hover, focus, and active states */
 }
+
+.title {
+    font-size: calc(1.525rem + 3.3vw);
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 8rem;
+    }
+}
